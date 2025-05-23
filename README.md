@@ -10,6 +10,7 @@ systemctl stop v2ray #停止v2ray<br>
 systemctl enable v2ray #v2ray开机自启<br>
 systemctl disable v2ray #v2ray取消开机自启<br>
 journalctl -u v2ray -f #查看实时日志<br>
+sudo /usr/local/bin/v2ray run -config /usr/local/etc/v2ray/config.json #手动启动
 <h3>服务检测</h3>
 v2ray test -config /usr/local/etc/v2ray/config.json<br>
 <h3>代理测试</h3>
