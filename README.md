@@ -14,6 +14,7 @@ journalctl -u v2ray -f #查看实时日志<br>
 v2ray test -config /usr/local/etc/v2ray/config.json<br>
 <h3>代理测试</h3>
 curl --socks5 127.0.0.1:10808 https://www.google.com<br>
+<h3>系统级别代理配置</h3>
 # 设置http代理<br>
 export http_proxy=socks5://127.0.0.1:10808<br>
 # 设置https代理<br>
